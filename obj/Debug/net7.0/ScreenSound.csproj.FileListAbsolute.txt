@@ -28,3 +28,18 @@
 /Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/obj/Debug/net7.0/ScreenSound.pdb
 /Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/obj/Debug/net7.0/ScreenSound.genruntimeconfig.cache
 /Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/obj/Debug/net7.0/ref/ScreenSound.dll
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.exe
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.deps.json
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.runtimeconfig.json
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.dll
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\bin\Debug\net7.0\ScreenSound.pdb
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.AssemblyInfo.cs
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.sourcelink.json
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.dll
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\refint\ScreenSound.dll
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.pdb
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ScreenSound.genruntimeconfig.cache
+C:\Users\6128094\OneDrive - Thomson Reuters Incorporated\Desktop\ScreenSound\ScreenSound\obj\Debug\net7.0\ref\ScreenSound.dll

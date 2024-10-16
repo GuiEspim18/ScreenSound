@@ -53,9 +53,15 @@ void ShowBands()
 {
     Console.Clear();
     Console.WriteLine("Bandas Cadastradas\n");
-    for (int i = 0; i < bands.Count; i++) 
+    // for (int i = 0; i < bands.Count; i++) 
+    // {
+    //     Console.WriteLine($"{i}. {bands[i]}");
+    // }
+    int order = 1;
+    foreach (string band in bands) 
     {
-        Console.WriteLine($"{i}. {bands[i]}");
+        Console.WriteLine($"{order}. {band}");
+        order++;
     }
     Console.Write("\nPressione qualquer tecla para volar ao menu principal");
     Console.ReadKey();
