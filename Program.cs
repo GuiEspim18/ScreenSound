@@ -33,7 +33,7 @@ void ShowMenuOptions()
         case 1: RegisterBand(); break;
         case 2: ShowBands(); break;
         case 3: RateBand(); break;
-        case 4: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 4: ShowAvarage(); break;
         case 0: Console.WriteLine("Até logo!"); break;
         default: Console.WriteLine("Opção inválida"); break;
     }
@@ -89,6 +89,27 @@ void RateBand()
         bands[band].Add(rate);
         Console.Write($"Nota atribuida à banda {band}!");
         Thread.Sleep(2000);
+    } else 
+    {
+        Console.Write($"A banda {band} não existe!");
+        Console.Write("\nDigite qualquer tecla para voltar ao menu principal");
+        Console.ReadKey();
+    }
+    ShowMenuOptions();
+}
+
+void ShowAvarage()
+{
+    Console.Clear();
+    ShowTitle("Média da banda");
+    Console.Write("Digite o nome da banda na qual você deseja saber a média: ");
+    string band = Console.ReadLine()!;
+    if (bands.ContainsKey(band)) 
+    {
+        double avarage = bands[band].Average();
+        Console.Write($"A média da banda {band} é {avarage}");
+        Console.Write("\nDigite qualquer tecla para voltar ao menu principal");
+        Console.ReadKey();
     } else 
     {
         Console.Write($"A banda {band} não existe!");
