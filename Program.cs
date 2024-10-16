@@ -32,7 +32,7 @@ void ShowMenuOptions()
     {
         case 1: RegisterBand(); break;
         case 2: ShowBands(); break;
-        case 3: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 3: RateBand(); break;
         case 4: Console.WriteLine("Você escolheu a opção " + option); break;
         case 0: Console.WriteLine("Até logo!"); break;
         default: Console.WriteLine("Opção inválida"); break;
@@ -66,13 +66,36 @@ void ShowBands()
     ShowMenuOptions();
 }
 
-void ShowTitle(string title) {
+void ShowTitle(string title) 
+{
     int size = title.Length;
     string divider = string.Empty.PadLeft(size, '=');
     Console.WriteLine(divider);
     Console.WriteLine(title);
     Console.WriteLine($"{divider}\n");
     
+}
+
+void RateBand()
+{
+    Console.Clear();
+    ShowTitle("Avaliar Banda");
+    Console.Write("Digite o nome da banda que deseja avaliar: ");
+    string band = Console.ReadLine()!;
+    if (bands.ContainsKey(band)) 
+    {
+        Console.Write($"Qual nota você deseja atribuir à banda {band}? ");
+        int rate = int.Parse(Console.ReadLine()!);
+        bands[band].Add(rate);
+        Console.Write($"Nota atribuida à banda {band}!");
+        Thread.Sleep(2000);
+    } else 
+    {
+        Console.Write($"A banda {band} não existe!");
+        Console.Write("\nDigite qualquer tecla para voltar ao menu principal");
+        Console.ReadKey();
+    }
+    ShowMenuOptions();
 }
 
 ShowMenuOptions();
