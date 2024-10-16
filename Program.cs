@@ -69,14 +69,19 @@ void ShowBands()
 }
 
 void ShowTitle(string title) {
+    // int size = title.Length;
+    // string divider = "";
+    // for (int i = 0; i < size; i++) {
+    //     divider += "=";
+    // }
+
+
     int size = title.Length;
-    string divider = "";
-    for (int i = 0; i < size; i++) {
-        divider += "=";
-    }
+    string divider = string.Empty.PadLeft(size, '=');
     Console.WriteLine(divider);
     Console.WriteLine(title);
     Console.WriteLine($"{divider}\n");
+    
 }
 
 ShowMenuOptions();
