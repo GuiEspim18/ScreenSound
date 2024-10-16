@@ -23,12 +23,15 @@ void ShowMenuOptions()
 
     Console.Write("\nDigite uma opção: ");
     int option = int.Parse(Console.ReadLine());
-    if (option == 1) 
+    
+    switch (option) 
     {
-        Console.WriteLine("Você digitou a opção " + option);
-    } else if (option == 2) 
-    {
-        Console.WriteLine("Você digitou a opção " + option);
+        case 1: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 2: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 3: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 4: Console.WriteLine("Você escolheu a opção " + option); break;
+        case 0: Console.WriteLine("Você escolheu a opção " + option); break;
+        default: Console.WriteLine("Opção inválida"); break;
     }
 }
 
