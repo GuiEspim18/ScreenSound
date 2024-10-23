@@ -4,13 +4,8 @@ class Music
     public string Artist { get; set; } = "";
     public int Duration { get; set; }
     public bool Avaliable { get; set; }
-    public string Description 
-    {
-        get 
-        { 
-            return $"{Name} - {Artist}"; 
-        }
-    }
+    public string Description => $"{Name} - {Artist}"; 
+  
 
     public void Show() 
     {
