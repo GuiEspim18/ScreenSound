@@ -3,7 +3,7 @@ class Music
     public string name = "";
     public string artist = "";
     public int duration;
-    public bool avaliable { get; set; }
+    public bool Avaliable { get; set; }
 
     public void Show() 
     {
