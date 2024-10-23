@@ -3,21 +3,18 @@
 Band arcticMonkeys = new();
 arcticMonkeys.Name = "Arctic Monkeys";
 
-Album am = new();
+Album am = new(arcticMonkeys);
 am.Name = "AM";
-am.Band = "Arctic Monkeys";
 
 arcticMonkeys.AddAlbum(am);
 
-Music doIWannaKnow = new();
+Music doIWannaKnow = new(arcticMonkeys);
 doIWannaKnow.Name = "Do I Wanna Know?";
-doIWannaKnow.Artist = "Arctic Monkeys";
 doIWannaKnow.Duration = 432;
 doIWannaKnow.Avaliable = true;
 
-Music arabella = new();
+Music arabella = new(arcticMonkeys);
 arabella.Name = "Arabella";
-arabella.Artist = "Arctic Monkeys";
 arabella.Duration = 327;
 arabella.Avaliable = true;
 
