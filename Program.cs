@@ -2,8 +2,10 @@
 
 Band arcticMonkeys = new("Arctic Monkeys");
 
-Album am = new(arcticMonkeys);
-am.Name = "AM";
+Album am = new(arcticMonkeys)
+{
+    Name = "AM"
+};
 
 arcticMonkeys.AddAlbum(am);
 
