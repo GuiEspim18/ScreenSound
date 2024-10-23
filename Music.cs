@@ -3,7 +3,7 @@ class Music
     public string name = "";
     public string artist = "";
     public int duration;
-    private bool avaliable;
+    public bool avaliable { get; set; }
 
     public void Show() 
     {
@@ -17,15 +17,5 @@ class Music
         {
             Console.WriteLine("Indisponível no plano!");
         }
-    }
-
-    public bool IsAvaliable() 
-    {
-        return avaliable;
-    }
-
-    public void SetAvaliable(bool value)
-    {
-        avaliable = value;
     }
 }

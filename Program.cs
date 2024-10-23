@@ -4,5 +4,5 @@ Music music = new();
 music.name = "Só Fé";
 music.artist = "Grelo";
 music.duration = 246;
-music.SetAvaliable(true);
+music.avaliable = true;
 music.Show();
