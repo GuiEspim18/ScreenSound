@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MactMKgu3pM=",
+  "dgSpecHash": "J9hKorcaSdETPQvgZmX6C+OOrekcW/xuq2JyBFk+rhaKBkMyMAmr72ao6zdww0AS0oIPKySdBvA+Q12BEY4saw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\6128094\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\6128094\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\6128094\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "C:\\Users\\6128094\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/ScreenSound.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

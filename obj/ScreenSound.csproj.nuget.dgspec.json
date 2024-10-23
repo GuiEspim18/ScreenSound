@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
+    "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
+    "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-        "packagesPath": "C:\\Users\\6128094\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6128094\\OneDrive - Thomson Reuters Incorporated\\Desktop\\ScreenSound\\ScreenSound\\obj\\",
+        "projectPath": "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/ScreenSound.csproj",
+        "packagesPath": "/Users/guiespim/.nuget/packages/",
+        "outputPath": "/Users/guiespim/Documents/pasta-do-gui/dot-net/ScreenSound/ScreenSound/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\6128094\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/guiespim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,30 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
         }
       }
     }
