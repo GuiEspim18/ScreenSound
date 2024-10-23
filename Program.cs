@@ -7,15 +7,19 @@ am.Name = "AM";
 
 arcticMonkeys.AddAlbum(am);
 
-Music doIWannaKnow = new(arcticMonkeys);
-doIWannaKnow.Name = "Do I Wanna Know?";
-doIWannaKnow.Duration = 432;
-doIWannaKnow.Avaliable = true;
+Music doIWannaKnow = new(arcticMonkeys)
+{
+    Name = "Do I Wanna Know?",
+    Duration = 432,
+    Avaliable = true
+};
 
-Music arabella = new(arcticMonkeys);
-arabella.Name = "Arabella";
-arabella.Duration = 327;
-arabella.Avaliable = true;
+Music arabella = new(arcticMonkeys)
+{
+    Name = "Arabella",
+    Duration = 327,
+    Avaliable = true
+};
 
 am.AddMusic(doIWannaKnow);
 am.AddMusic(arabella);
