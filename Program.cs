@@ -1,7 +1,6 @@
 ﻿Console.Clear();
 
-Band arcticMonkeys = new();
-arcticMonkeys.Name = "Arctic Monkeys";
+Band arcticMonkeys = new("Arctic Monkeys");
 
 Album am = new(arcticMonkeys);
 am.Name = "AM";

@@ -1,6 +1,12 @@
 class Band
 {
-    public string Name { get; set; } = "";
+
+    public Band(string name)
+    {
+        Name = name;
+    }
+
+    public string Name { get; }
     private readonly List<Album> albums = new();
 
     public void AddAlbum(Album album) 
