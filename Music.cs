@@ -10,7 +10,7 @@ class Music
         Console.WriteLine($"Nome: {name}");
         Console.WriteLine($"Artista: {artist}");
         Console.WriteLine($"Duração: {duration}");
-        if (avaliable) 
+        if (Avaliable) 
         {
             Console.WriteLine("Disponível no plano!");
         } else 
