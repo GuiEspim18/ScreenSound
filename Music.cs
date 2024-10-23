@@ -4,12 +4,17 @@ class Music
     public string Artist { get; set; } = "";
     public int Duration { get; set; }
     public bool Avaliable { get; set; }
-    public string CompleteName { get; set; } = "";
+    public string Description 
+    {
+        get 
+        { 
+            return $"{Name} - {Artist}"; 
+        }
+    }
 
     public void Show() 
     {
-        Console.WriteLine($"Nome: {Name}");
-        Console.WriteLine($"Artista: {Artist}");
+        Console.WriteLine(Description);
         Console.WriteLine($"Duração: {Duration}");
         if (Avaliable) 
         {
