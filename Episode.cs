@@ -1,15 +1,15 @@
 class Episode
 {
-    public Episode(string order, string summary, string title)
+    public Episode(int order, string title, int duration)
     {
         Order = order;
-        Summary = summary;
         Title = title;
+        Duration = duration;
     }
-    
-    public int Duration { get; set; }
-    public string Order { get; }
-    public string Summary { get; }
+
+    public int Duration { get; }
+    public int Order { get; }
+    public string Summary => $"${Order} - ${Title} (${Duration} min)\n Convidados: ${string.Join(",", inviteds)}";
     public string Title { get; }
     public readonly List<string> inviteds = new();
 
