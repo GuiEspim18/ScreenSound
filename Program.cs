@@ -1,6 +1,4 @@
-﻿using ScreenSound.Models.Band;
-using ScreenSound.Models.Album;
-using ScreenSound.Models.Music;
+﻿using ScreenSound.Models;
 
 Console.Clear();
 
