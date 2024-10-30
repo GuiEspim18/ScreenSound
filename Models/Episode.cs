@@ -1,3 +1,5 @@
+namespace ScreenSound.Models;
+
 class Episode
 {
     public Episode(int order, string title, int duration)

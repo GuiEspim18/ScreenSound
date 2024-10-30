@@ -1,4 +1,8 @@
-﻿Console.Clear();
+﻿using ScreenSound.Models.Band;
+using ScreenSound.Models.Album;
+using ScreenSound.Models.Music;
+
+Console.Clear();
 
 Band arcticMonkeys = new("Arctic Monkeys");
 

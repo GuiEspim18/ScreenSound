@@ -1,3 +1,5 @@
+namespace ScreenSound.Models;
+
 class Band
 {
 
